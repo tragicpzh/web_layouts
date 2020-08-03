@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: aqua;
+    height: 60px;
+}
+.footer{
+    background-color: crimson;
+    height: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container>div{
+    height: 1000px;
+}
+.maincontent{
+    background-color: black;
+    flex-grow: 1;
+}
+.left{
+    width: 200px;
+    background-color: blue;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.right{
+    width: 200px;
+    background-color: blueviolet;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
